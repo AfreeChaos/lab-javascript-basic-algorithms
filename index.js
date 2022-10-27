@@ -18,3 +18,16 @@ if (hacker1.length > hacker2.length) {
 
 // Iteration 3: Loops
 
+let hacker0 = ""
+for (let i = 0; i < hacker1.length; i++) {
+  hacker0 += (hacker1[i].toUpperCase()+" ")
+}
+
+console.log(hacker0)
+
+let hacker3 = ""
+for (let i = hacker1.length -1; i >= 0; i--) {
+  hacker3 += hacker1[i]
+}
+
+console.log (hacker3)
